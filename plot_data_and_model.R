@@ -10,7 +10,7 @@ logistic_fun <- function(t) {
   
 }
 
-N0 <- 879
+N0 <- 963
   
 r <-  0.0101
   
@@ -22,7 +22,17 @@ ggplot(aes(t,N), data = growth_data) +
   
   geom_point()
 
-  #scale_y_continuous(trans='log10')
+#looks like a logistic model 
+
+#scale_y_continuous(trans='log10')
+
+ggplot(aes(t,N), data = growth_data) +
+  
+  geom_function(fun=logistic_fun, colour="red") +
+  
+  geom_point()
+
+scale_y_continuous(trans='log10')
 
 
 #save the packages needed in a file 
