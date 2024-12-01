@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+=======
+
+Call:
+lm(formula = N ~ 1, data = data_subset2)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-1.394e+09  6.673e+07  6.808e+07  6.808e+07  6.808e+07 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 5.993e+10  3.560e+07    1683   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 246700000 on 47 degrees of freedom
+
+>>>>>>> 75621b7d3c0b372220fe6eeb8a5e7f76c002e62b
