@@ -13,5 +13,5 @@ Question 2) Population size at a certain time point (4980) assuming exponential 
 Question 3) Comparing the exponential and logistic graphs side by side, I used similar code to the one already in the R file and adapted it so it showed exponential instead of the logistic model- using the same model parameters that are required for an exponential model- N0 and r. The code that I used is in a newly created folder in this logistic_growth repo called question 3 code. The graph that this produced, which allows comparison between the logistic and exponential model is here below.
 
  <p align="center">
-     <img src="https://github.com/Cat13-beep/logistic_growth/blob/main/Question%203%20image.png" width"50" height"100">
+     <img src="https://github.com/Cat13-beep/logistic_growth/blob/main/Question%203%20image.png" width"200" height"100">
   </p>
