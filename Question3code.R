@@ -2,7 +2,7 @@
 
 growth_data <- read.csv("experiment.csv")
 
-#download packages requried
+#download packages required
 library(ggplot2)
 
 #Logistic model formation- similar to what was done in plot_data_and_model.R
