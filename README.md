@@ -16,10 +16,10 @@ Population size at a certain time point (4980) assuming exponential growth can b
 
 **Question 3)**
 
-Comparing the exponential and logistic graphs side by side, I used similar code to the one already in the R file and adapted it so it showed exponential instead of the logistic model- using the same model parameters that are required for an exponential model- N0 and r. The code that I used is in a newly created folder in this logistic_growth repo called question 3code.R. The graph that this produced, which allows comparison between the logistic and exponential model is here below and in the repo folder Question 3 image.png.
+Comparing the exponential and logistic graphs side by side, I used similar code to the one already in the R file and adapted it so it showed exponential instead of the logistic model- using the same model parameters that are required for an exponential model- N0 and r. The code that I used is in a newly created folder in this logistic_growth repo called question 3code.R. The graph that this produced, which allows comparison between the logistic and exponential model is here below and in the repo folder Rplot.png.
 
  <p align="center">
-     <img src="https://github.com/Cat13-beep/logistic_growth/blob/main/Question%203%20image.png" width"200" height"100">
+     <img src="https://github.com/Cat13-beep/logistic_growth/blob/main/Rplot.png" width"200" height"100">
   </p>
 
 This graph shows that the exponential graph infinitely increases at an increasing rate, in contrast, the logistic model plateaus at a certain time so that the population size of the bacteria remains constant. 
