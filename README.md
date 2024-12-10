@@ -1,5 +1,5 @@
 # Question 1) 
-**Information and Results of the Bacterial Growth Analysis**
+**Information and Results for the Logistic Growth Analysis**
 
 <ins>Analysis information:</ins> This data analysis is based on estimating parameters relating to the growth of a bacteria population in media- the parameters that are being investigated include the initial population size of the bacteria (N0), rate of growth (r), and the carrying capacity (K). In addition, the data is fitted to logistic and exponential models to see which describes the data best. I am using the experiment.csv data file, from the Open Science Framework's website- logistic growth data by contributor Jose Gabriel Nino Barreat (in my repo as experiment.csv). This data includes results from a single, simulated bacteria growth experiment.
 
@@ -11,16 +11,18 @@ When fitting the linear model to the data part of the analysis I first inputted 
 
 For the final bit of analysis (plot_data_and_model.R) a model with my estimates for the parameters produced a graph that is the correct shape of the logistic model and runs through the points from the data set- the red line of the model crosses through these points. This same outcome is seen, that the data points and the logistic model are in the same shape (as with the first graph) on the semi-logged logistic graph. As the data points and logistic model follow a similar shape it suggests the values I have found for the estimates of these parameters are correct.
 
-**Question 2) Comparing Exponential and Logistic Models**
+# Question 2) 
+**Comparing Exponential and Logistic Models**
 
 Population size at a certain time point (4980) assuming exponential growth can be done using the exponential model equation- N(t)= N0e<sup>rt</sup> using my parameters for N0 and r. This creates the equation 961.986e^0.0101x4980 = 6.719x10<sup>24</sup> bacterial population size. Compared to the logistic model this is much larger. The logistic model plateaus off at high t values- at around 2000 minutes in this data set, which is better as it is a more realistic picture of bacterial growth as they have limited space and nutrients. Therefore, the predicted population size of bacteria by the logistic model at this time would be the carrying capacity mentioned above (5.993e+10 bacteria). 
 
-**Question 3)**
+# Question 3)
+**Graph Comparing Exponential and Logistic Models
 
-Comparing the exponential and logistic graphs side by side, I used similar code to the one already in the R file and adapted it so it showed exponential instead of the logistic model- using the same model parameters that are required for an exponential model- N0 and r. The code that I used is in a newly created folder in this logistic_growth repo called question 3code.R. The graph that this produced, which allows comparison between the logistic and exponential model is here below and in the repo folder Rplot.png.
+Comparing the exponential and logistic graphs side by side, I used similar code to the one already in the R-file in the folder plot_data_and_model.R and adapted it so it showed exponential instead of the logistic model- using the parameters required for an exponential model- N0 and r (same values as used for the logistic model). The code that I used is in a newly created folder in this logistic_growth repo called question3code.R. The graph that this produced, which allows comparison between the logistic and exponential model is here below and in the repo folder Rplot.png.
 
  <p align="center">
      <img src="https://github.com/Cat13-beep/logistic_growth/blob/main/Rplot.png" width"200" height"100">
   </p>
 
-This graph shows that the exponential graph infinitely increases at an increasing rate, in contrast, the logistic model plateaus at a certain time so that the population size of the bacteria remains constant. 
+This graph shows that the exponential graph (blue line) infinitely increases at an increasing rate, in contrast, the logistic model (red line) plateaus at a certain time, at around 2000 minutes, so that the population size of the bacteria remains constant. 
