@@ -17,7 +17,7 @@ For the final bit of analysis (plot_data_and_model.R) a model with my estimates 
 Population size at a certain time point (4980) assuming exponential growth can be done using the exponential model equation- N(t)= N0e<sup>rt</sup> using my parameters for N0 and r. This creates the equation 961.986e^0.0101x4980 = 6.719x10<sup>24</sup> bacterial population size. Compared to the logistic model this is much larger. The logistic model plateaus off at high t values- at around 2000 minutes in this data set, which is better as it is a more realistic picture of bacterial growth as they have limited space and nutrients. Therefore, the predicted population size of bacteria by the logistic model at this time would be the carrying capacity mentioned above (5.993e+10 bacteria). 
 
 # Question 3)
-**Graph Comparing Exponential and Logistic Models
+**Graph Comparing Exponential and Logistic Models**
 
 Comparing the exponential and logistic graphs side by side, I used similar code to the one already in the R-file in the folder plot_data_and_model.R and adapted it so it showed exponential instead of the logistic model- using the parameters required for an exponential model- N0 and r (same values as used for the logistic model). The code that I used is in a newly created folder in this logistic_growth repo called question3code.R. The graph that this produced, which allows comparison between the logistic and exponential model is here below and in the repo folder Rplot.png.
 
