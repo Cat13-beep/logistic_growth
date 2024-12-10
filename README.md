@@ -1,4 +1,4 @@
-#Question 1) 
+# Question 1) 
 **Information and Results of the Bacterial Growth Analysis**
 
 <ins>Analysis information:</ins> This data analysis is based on estimating parameters relating to the growth of a bacteria population in media- the parameters that are being investigated include the initial population size of the bacteria (N0), rate of growth (r), and the carrying capacity (K). In addition, the data is fitted to logistic and exponential models to see which describes the data best. I am using the experiment.csv data file, from the Open Science Framework's website- logistic growth data by contributor Jose Gabriel Nino Barreat (in my repo as experiment.csv). This data includes results from a single, simulated bacteria growth experiment.
